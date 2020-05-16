@@ -1,0 +1,165 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+% Set applicant's personal data for header
+
+\address{Otsuka, Toshima-ku\linebreak Tokyo,Japan}
+\name{\textbf{\Large{\textsc{Md. Mahbubur Rahman}}} \small{\href{https://www.linkedin.com/in/mahbubcseju/}{https://www.linkedin.com/in/mahbubcseju} }}
+\contacts{(+81) 08078467852 \linebreak mahbuburrahman2111@gmail.com}
+\def\first{8pt}
+\def\second{20pt}
+\begin{document}
+	% Print the header
+	\makeheader
+	% Print the contentGoogleGoogle
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{\hspace*{\first}Savar, Dhaka}{Jahangirnagar University}{Jan. 2013 - Jun. 2018}
+		    \vspace{2pt}			
+			\begin{itemize}
+			    \item B.Sc. in Computer Science and Engineering, Jun. 2018. \textbf{CGPA: 3.70 out of 4}.	
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Experiences}
+		\begin{cvsubsection}{\hspace*{\first}Software Engineer}{Crowd Realty, Japan}{Nov. 2019 - Present}	
+			\begin{itemize}
+			     \item Design and development of REST API using Django, Node js.
+			     \item Design and development of P2P platform infrastructure.
+			     \item Design and development of business system specialized in financial services.
+			     \item Fintech data analysis using different kinds of statistical or Deep Learning  based algorithms.
+			\end{itemize}
+		\end{cvsubsection}
+	   \begin{cvsubsection}{\hspace*{\first}Software Engineer}{BJIT, Japan}{Nov. 2018 - Oct. 2019}
+			\begin{itemize}
+			     \item \textbf{Carry Park Service (Jun. 2019 - Oct. 2019)}: Developed bluetooth service for Android to BLE devices connection.
+				\item \textbf{AI Chatbot (Apr. 2019 - Oct. 2019)}: Built a chatbot using Keras library. Sentiment analysis on Japanese text. Responsible for design and development of  rest API using Django and Angular 6.
+				\item Object tracking  in video using Person Re-identification approach.
+			\end{itemize}
+		\end{cvsubsection}
+		%\vspace{-8.0pt}
+		\begin{cvsubsection}{\hspace*{\first}Teaching Assistant}{Jahangirnagar University}{Sept. 2017 - Mar. 2018}			
+			\begin{itemize}
+				\item Trained and supervised students in algorithm and data structure. 
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Achievements}
+		\begin{cvsubsection}{}{}{}
+		    \begin{description}
+		     \vspace*{\first}
+		     \hspace*{-8pt}\textbf{Programming Contest Experience}
+		    \end{description}
+			\begin{itemize}
+				\item Placed \textbf{3\textsuperscript{rd}} out of 150 teams in National (Bangladesh) Collegiate Programing Contest 2017 (Bangladesh).
+				\item Placed \textbf{3\textsuperscript{rd}} out of 117 teams in IUT (Bangladesh) 9\textsuperscript{th} ICT FEST 2017.
+				\item Placed \textbf{4\textsuperscript{th}} out of 102 participants in NSU (Bangladesh) Inter University Programming Contest Spring 2017.
+				\item Placed \textbf{5\textsuperscript{th}} out of 106 teams in Bangladesh University of Engineering and Technology CSE Day 2016.
+				\item Placed \textbf{12\textsuperscript{th}} out of 123 teams in ACM-ICPC Asia Dhaka(Bangladesh) Regional Contest 2016.
+				%\item Also participated in many national and international programming contests.
+			\end{itemize}
+		\end{cvsubsection}
+		%\vspace*{-2pt}
+		%\vspace{-8.0pt}
+		\begin{cvsubsection}{\hspace*{\first}Online Problem Solving}{}{}
+			\begin{itemize}
+			    \item \textbf{Codeforces} - max rating 2021 (among 1\%), Username: \href{https://codeforces.com/profile/mahbubcseju}{\underline{mahbubcseju}}.
+			     \item \textbf{Codechef} - max rating 2309 (among 1\%), Username: \href{https://www.codechef.com/users/mahbubcseju}{\underline{mahbubcseju}}.
+			     \item \textbf{Hackerrank} - max rating 2345 (among 1\%),13 gold medal, 11 silver medal, 6 broze medal, Username: \href{https://www.hackerrank.com/profile/mahbubcseju}{\underline{mahbubcseju}}.
+			    \item Placed \textbf{50\textsuperscript{th}} in \textbf{Google Kickstart 2017 - Round F} out of \textbf{1722} participants.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+    \begin{cvsection}{Personal Projects}
+		\begin{cvsubsection}{}{}{}	
+		       \vspace{2.1pt}
+			\begin{itemize}
+				\item Built a deep learning based model for predicting clinical events using recurrent neural network.
+				\item Plant disease detection for two different  datasets (rice, mango) using  SVM, Bayesian and deep learning based classifiers (VGG16, Mobilent, Inception3, Rasnet, Densenet).
+				\item Image classification for about 10 different  datasets using  deep learning based classifiers (VGG16, Mobilent, Inception3, Rasnet, Densenet) and Transfer Learning.
+			    \item \href{https://github.com/mahbubcseju/CNN-for-text-classification-using-keras-for-yoon-kim-paper} {Text classification using CNN and character level CNN approach.}
+			     \item \href{https://github.com/mahbubcseju/object_detection_using_tensorflow} {Object detection using Tensorflow object detection API.}
+			    \item \href{https://github.com/mahbubcseju/Football_Tracking_using_Tensorflow} {Football tracking on real time video using deep learning.}
+				\item \href{https://github.com/mahbubcseju/Automatic_Image_Stitching_using_Feature_Based_Method}{Image editing tool for stitching two or more images using MATLAB.} 
+				\item \href{https://github.com/mahbubcseju/Downloader_MPEG_DASH_to_Opencv_Mat_using_libdash_Bitmovin}{MPEG-DASH video downloader to download MPEG-DASH video into OpenCV mat format using \textbf{C++, Python}.} 
+				\item \href{https://github.com/mahbubcseju/Side-channel-Attack}{Side channel attack on  elliptic-curve cryptography for BLS curve using \textbf{C, C++, Python}.} 
+				\item \href{https://github.com/mahbubcseju/attendance-by-face-recognition}{Developed an attendance system based on face recognition using \textbf{Python, Django , Javascript, Mysql, HTML, CSS,}.} 
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Certifications}
+		\begin{cvsubsection}{}{}{}	
+		       \vspace{2.1pt}
+			\begin{itemize}
+			  \item \textbf{Title}: Neural Networks and Deep Learning, \textbf{Issuing Organization}: Coursera, \textbf{Credential}:  \href{https://www.coursera.org/account/accomplishments/certificate/6EWNLF6MAFJW}{6EWNLF6MAFJW}
+			  \item \textbf{Title}:  Artificial Intelligence A-Z™: Learn How To Build An AI !, \textbf{Issuing Organization}: Udemy, \textbf{Credential}:  \href{http://ude.my/UC-HIFTT79A}{UC-HIFTT79A}
+			  \item \textbf{Title}:  Deep Learning and NLP A-Z™: How to create a ChatBot !, \textbf{Issuing Organization}: Udemy, \textbf{Credential}:  \href{http://ude.my/UC-9UWVFG2S}{UC-9UWVFG2S}
+			  \item \textbf{Title}: Deep Learning, Transfer Learning and Turtles, \textbf{Issuing Organization}: Udemy, \textbf{Credential}:  \href{http://ude.my/UC-SKLLIA0K}{UC-SKLLIA0K}
+			   \item \textbf{Title}: Internet Of Things- From Beginner To Making You First Device, \textbf{Issuing Organization}: Udemy, \textbf{Credential}:  \href{http://ude.my/UC-GPI5ZE8S}{UC-GPI5ZE8S}
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+		       \vspace{2.1pt}
+			\begin{itemize}
+			  \item \textbf{Researcher (Jul. 2018 - Aug. 2018):} Participated in a short research on elective curve cryptography in \textbf{Okayama University, Japan}.
+			  \item \textbf{Certification (Oct. 2018):}  Placed \textbf{2\textsuperscript{nd}} in Information Technology Professionals Exam (\textbf{ITEE FE October 2018}) from Bangladesh.
+			  \item \textbf{Campus Ambassador, GeeksforGeeks (Aug. 2018 - Oct. 2018):} Responsible for conducting workshops, seminars in Jahangirnagar University
+			  \item \textbf{Problem Setter (2017 – 2018):} Bangladesh National Girls Collegiate Programming Contest, Jahangirnagar University Intra University Programming Contest and some other national online contests.
+			  \item \textbf{Programming Camp (2016):} Placed \textbf{3\textsuperscript{rd}} in National (Bangladesh) Programming Camp 2016.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+		\begin{cvsection}{Skills}
+	 
+		\begin{cvsubsection}{}{}{}
+		    \begin{description}
+		     \vspace*{\first}
+		     \hspace*{-8pt}\textbf{Languages:}
+		    \end{description}
+			\begin{itemize}
+				\item \textbf{Proficient:} C/C++, Python.
+				\item \textbf{Worked with:}  Java, Javascript, Node js, React Js, Angular js, Python.
+				%\item Also participated in many national and international programming contests.
+			\end{itemize}
+		\end{cvsubsection}
+		%\vspace*{-2pt}
+		%\vspace{-8.0pt}
+		\begin{cvsubsection}{\hspace*{\first}Technologies:}{}{}
+			\begin{itemize}
+			  \item Keras, Tensorflow,  Pytorch, MySql, Django, Android, Angular 6, Git. 
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+\end{document}
